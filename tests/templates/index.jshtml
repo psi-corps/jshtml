@@ -1,0 +1,5 @@
+@model.articles.forEach(a => 
+    <article>
+        <a href="@a.url">@a.title</a>
+        <div>a.text</div>
+    </article>);

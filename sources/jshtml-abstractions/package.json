@@ -1,0 +1,18 @@
+{
+  "name": "jshtml-abstractions",
+  "version": "0.0.1",
+  "description": "The abstractions for JSHTML template engine compiler implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "jshtml",
+    "razor",
+    "bullshit",
+    "templating"
+  ],
+  "author": "Serafim Prozorov",
+  "license": "MIT"
+}

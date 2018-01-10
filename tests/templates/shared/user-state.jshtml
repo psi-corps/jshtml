@@ -1,0 +1,11 @@
+@import userManager from './user-manager'
+
+@if (!model) {
+    <a href='/login'>Sign in</a>
+} else {
+    <span>@userManager.getUser(model).name<span>
+}
+
+@{ 
+    model ? <span>@model<span> : 'No user id';
+ }

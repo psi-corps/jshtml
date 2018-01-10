@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@model.title</title>
+    </head>
+    <body>
+        <header>
+            @('user', model.uid)
+        </header>
+        <section>
+            @(model)
+        </section>
+        <footer>
+            @for (let link of model.links) {
+                <a href="@link.href">@link.text</a>
+            }
+        </footer>
+    </body>
+</html>
